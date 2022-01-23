@@ -1,0 +1,133 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "change me",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "HelloWorldIntent",
+          "slots": [],
+          "samples": [
+            "hallo",
+            "wie geht\u0027s dir",
+            "sag hallo welt",
+            "sag hallo"
+          ]
+        },
+        {
+          "name": "MarketOrderIntent",
+          "slots": [
+            {
+              "name": "side",
+              "type": "side"
+            },
+            {
+              "name": "quantity",
+              "type": "AMAZON.NUMBER"
+            },
+            {
+              "name": "stock",
+              "type": "stock"
+            }
+          ],
+          "samples": [
+            "Ich {side} {stock} mit lemon markets",
+            "Markt {side} {quantity} {stock}"
+          ]
+        }
+      ],
+      "types": [
+        {
+          "values": [
+            {
+              "name": {
+                "value": "verkaufe"
+              }
+            },
+            {
+              "name": {
+                "value": "kaufe"
+              }
+            }
+          ],
+          "name": "side"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "Tesla"
+              }
+            },
+            {
+              "name": {
+                "value": "Apple"
+              }
+            },
+            {
+              "name": {
+                "value": "APC"
+              }
+            },
+            {
+              "name": {
+                "value": "TL0"
+              }
+            },
+            {
+              "name": {
+                "value": "Microsoft"
+              }
+            },
+            {
+              "name": {
+                "value": "MSF"
+              }
+            },
+            {
+              "name": {
+                "value": "Deutsche Bank"
+              }
+            },
+            {
+              "name": {
+                "value": "DBK"
+              }
+            },
+            {
+              "name": {
+                "value": "Amazon"
+              }
+            },
+            {
+              "name": {
+                "value": "AMZ"
+              }
+            }
+          ],
+          "name": "stock"
+        }
+      ]
+    }
+  },
+  "version": "3"
+}
