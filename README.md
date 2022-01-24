@@ -1,5 +1,5 @@
 # AlexaPleaseBuyMeStocks - Trading with Amazon Echo
-Code Snippet which is part of the Alexa implementation to execute trading with Amazon's virutal assistant and using the lemon.markets API. 
+Code Snippet which is part of the Alexa implementation to execute trading on the stock market with Amazon's virutal assistant including the lemon.markets API. 
 
 ## Instructions for Use
 This script can be used as a starting point to implement your own trading service with lemon.markets for your virtual assistant from Amazon.
@@ -13,7 +13,7 @@ Also, if you're not sure about how to use the lemon.markets API for the project,
 * https://docs.lemon.markets
 
 ## Environmental Variables
-You'll notice that the script uses several environment variables. Please define the following in an .env file or within your IDE:
+You'll notice that the script uses several environment variables to include the API. Please define the following in an .env file or within your IDE:
 
 - API_KEY - Your lemon.markets API key
 - MIC - Market Identifier Code of chosen Trading Venue
