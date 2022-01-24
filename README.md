@@ -24,6 +24,6 @@ You'll notice that the script uses several environment variables to include the 
 ## Interested in contributing?
 This (and all lemon.markets open source projects) is work in progress. 
 If you are interested in contributing to this repository, simply create a PR and/or contact the team of lemon.markets at support@lemon.markets.
-To learn more about the usage of the Alexa Developer Console, feel free to contact me (mojomailservice@gmail.com) and I'll send you the presentation with a step-by-step tutorial of getting into the Console. 
+To learn more about the use of the Alexa Developer Console or the use of the lemon.markets API, feel free to contact me (mojomailservice@gmail.com) and I'll send you the presentation with a step-by-step guide to make your first steps with the Console and the API as easy as possible. 
 
 Looking forward to building lemon.markets with you 🍋
