@@ -7,10 +7,10 @@ As you can already see, it only contains the Python code that you can use for th
 The Alexa Developer Console is the environment which allows you to add new skills(including intents + sets) for the Alexa home service. 
 
 I'd recommend you to check out the video tutorial "Zero to Hero" from Amazon to understand the use of the Alexa Developer Console. 
--> https://www.youtube.com/watch?v=CzTKDu7Qgjs
+* https://www.youtube.com/watch?v=CzTKDu7Qgjs
 
 Also, if you're not sure about how to use the lemon.markets API for the project, I'd recommend you to read the document to learn more about how to implement the lemon.markets API into your projects.
--> https://docs.lemon.markets
+* https://docs.lemon.markets
 
 ** Environmental Variables ** 
 You'll notice that the script uses several environment variables. Please define the following in an .env file or within your IDE:
