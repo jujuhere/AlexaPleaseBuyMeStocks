@@ -12,7 +12,7 @@ I'd recommend you to check out the video tutorial "Zero to Hero" from Amazon to 
 Also, if you're not sure about how to use the lemon.markets API for the project, I'd recommend you to read the document to learn more about how to implement the lemon.markets API into your projects.
 * https://docs.lemon.markets
 
-** Environmental Variables ** 
+**Environmental Variables** 
 You'll notice that the script uses several environment variables. Please define the following in an .env file or within your IDE:
 
 - API_KEY - Your lemon.markets API key
