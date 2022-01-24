@@ -1,5 +1,5 @@
 # AlexaPleaseBuyMeStocks - Trading with Amazon Echo
-Code Snippet which is part of the Alexa implementation to execute trading on the stock market with Amazon's virutal assistant including the lemon.markets API. 
+Code Snippet (Incomplete) which is part of the Alexa implementation to execute trading on the stock market with Amazon's virutal assistant including the lemon.markets API. 
 
 ## Instructions for Use
 This script can be used as a starting point to implement your own trading service with lemon.markets for your virtual assistant from Amazon.
