@@ -23,8 +23,8 @@ class stock_dict = [
     {"Tesla" : "TL0"
     }]
 # class stock_dict = [
-#    {"Tesla" : "TL0",
-#     "Apple" : "APPL",
+#    {"TL0" : "CA88162R1091",
+#     "APPL" : "CA03785Y1007",
  #    "stock name" : "ISIN"
  #   }]
 # the_stock = handlerInput.requestEnvelope.request.intent.slots.number.value
@@ -65,10 +65,12 @@ class MarketOrderIntentHandler(AbstractRequestHandler):
      #       the_stock = handler_input.request_envelope.request.intent.slots["stock"].value
         slots = handler_input.request_envelope.request.intent.slots
         side = slots["side"].value
+        if side = "purchase":
+            side = "buy"
         stock = slots["stock"].value
         quantity = slots["quantity"].value
         if stock = "TL0":
-            isin = CA88162R1091  # for Tesla CDR Reg S
+            isin = "CA88162R1091"  # for Tesla CDR Reg S
         else:
             speak_output = "What do you mean?"
             
